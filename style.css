@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color:orange;
+    background-color: aqua;
+}
+#show_sketch{
+    float:right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px ;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow:1px 1px 38px red;}
+    16.67%{box-shadow:1px 1px 38px orange;}
+    33.34%{box-shadow:1px 1px 38px yellow;}
+    50%{box-shadow:1px 1px 38px rgb(6, 250, 38);}
+    66.68%{box-shadow:1px 1px 38px rgb(0, 255, 255)}
+    100%{box-shadow:1px 1px 38px magenta}
+}
